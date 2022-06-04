@@ -1,17 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <title>Accueil</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.css" rel="stylesheet" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="router1.php?action=CaveAccueil">AP03</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="./atelier.html">Atelier</a></li>
+
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Des lignes <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="router1.php?action=mesPropositions">Proposition d'améloration</a></li>
+
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1>Les lignes</h1>
+            <ul>
+                <p class="text-muted">Quand vous déplacez le curseur, les lignes convergent vers le curseur</p>
+                <p class="text-muted">Les lignes se connectent</p>
+                <p class="text-muted">Le curseur se déplace plus rapidement et les lignes s'étalent</p>
+            </ul>
+
+        </div>
+        <div class="footer navbar-fixed-bottom">
+            <ul>
+
+                <li>SUN Sun, 4 juin 2022</li>
+            </ul>
+        </div>
+
+
+
+
+
+    </div>
+    <script type="text/javascript" color="0,0,255" opacity='1' zIndex="-2" count="200"
+        src="dist/canvas-nest.js"></script>
 </body>
 
 </html>

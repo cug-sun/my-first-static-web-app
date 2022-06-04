@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+
+  <title>Baleine</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    #github-iframe {
+      position: fixed;
+      left: 32px;
+      top: 32px;
+    }
+
+    #area-render {
+      position: fixed;
+      width: 320px;
+      height: 160px;
+      right: 4px;
+      bottom: 4px;
+      border: dashed 1px #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>
+      <p class="text-muted">Chute de baleine</p>
+    </h1>
+    <p class="text-muted">Zeyu LIU</p>
+    <div class="panel-group">
+      <div class="panel panel-default">
+
+        <div class="panel-body"><img src="./image/1.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="panel-title">
+            <p class="text-muted">Rencontré un requin</p>
+          </h1>
+        </div>
+        <div class="panel-body"><img src="./image/2.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="panel-title">
+            <p class="text-muted">Grièvement blessé</p>
+          </h1>
+        </div>
+        <div class="panel-body"><img src="./image/3.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="panel-title">
+            <p class="text-muted">Il n'y a pas de remède, mourant progressivement</p>
+          </h1>
+        </div>
+        <div class="panel-body"><img src="./image/4.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+
+        <div class="panel-body"><img src="./image/5.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+
+        <div class="panel-body"><img src="./image/6.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+
+        <div class="panel-body"><img src="./image/7.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="panel-title">
+            <p class="text-muted">Après un long moment</p>
+          </h1>
+        </div>
+        <div class="panel-body"><img src="./image/8.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+
+        <div class="panel-body"><img src="./image/9.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+      <div class="panel panel-default">
+
+        <div class="panel-body"><img src="./image/10.png" height="700" width="1100" class="img-rounded" /></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <script type="text/javascript" color="32,178,170" opacity='1' zIndex="-2" count="200"
+    src="dist/canvas-nest.js"></script>
+  <!-- <div id="github-iframe"></div>
+
+  <div id="area-render"></div> -->
+
+  <!-- <script type="text/javascript" color="32,178,170" opacity='1' zIndex="-2" count="200"
+    src="dist/canvas-nest.js"></script> -->
+  <!-- <script type="text/javascript" src="dist/canvas-nest.umd.js"></script> -->
+  <script type="text/javascript">
+    var cn = new CanvasNest(document.getElementById('area-render'), {
+      color: '255,0,255',
+      count: 50,
+    });
+
+    // 下面为其他 js，无需关注
+    // function asyncLoad() {
+    //   //async load github
+    //   var i = document.createElement("iframe");
+    //   i.src = "https://ghbtns.com/github-btn.html?user=hustcc&repo=canvas-nest.js&type=star&count=true";
+    //   i.scrolling = "no";
+    //   i.frameborder = "0";
+    //   i.border = "0";
+    //   i.setAttribute("frameborder", "0", 0);
+    //   i.width = "100px";
+    //   i.height = "20px";
+    //   document.getElementById("github-iframe").appendChild(i);
+    // }
+    // function loadGitHubBtn() {
+    //   if (window.addEventListener) {window.addEventListener("load", asyncLoad, false);}
+    //   else if (window.attachEvent) {window.attachEvent("onload", asyncLoad);}
+    //   else {window.onload = asyncLoad;}
+    // }
+
+    // loadGitHubBtn();
+  </script>
+</body>
+
+</html>
